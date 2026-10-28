@@ -40,3 +40,23 @@ These rules are applied iteratively to generate the evolution of the world.
 ├── technical_test.cpp
 ├── technical_test
 └── ...
+
+## Build and Run
+
+### Prerequisites
+- A C++ compiler supporting **C++23** (e.g., `g++` 13+ or `clang++` 16+)
+
+### Compilation
+Compile the project using the following command:
+
+```bash
+g++ -Wall -Wextra -std=c++23 technical_test.cpp -o technical_test
+
+
+###Execution
+
+Run the generated executable:
+
+```bash
+./technical_test
+
